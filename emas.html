@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Katalog Emas | Lelang Internal 2025</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function openPopup(id){ document.getElementById(id).style.display = 'flex'; }
+    function closePopup(id){ document.getElementById(id).style.display = 'none'; }
+    document.addEventListener('click', function(e){
+      if(e.target && e.target.matches('a.detail-btn')) e.preventDefault();
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>KATALOG EMAS 2025</h1>
+    <p>Lelang Internal 2025 — Logam Mulia Antam Lengkap</p>
+  </header>
+
+  <main class="catalog-container">
+
+    <!-- 1 Antam 1000 gram -->
+    <div class="product">
+      <img src="logammuliaantam1000gram.jpg" alt="Logam Mulia Antam 1000 Gram">
+      <div class="info">
+        <h3>Logam Mulia Antam 1000 Gram</h3>
+        <p><strong>Fine Gold:</strong> 999.9</p>
+        <p><strong>Sertifikat:</strong> LBMA</p>
+        <p><strong>Harga:</strong> Rp 1.700.000.000</p>
+        <a href="#" class="detail-btn" onclick="openPopup('emas1')">Detail Produk</a>
+      </div>
+    </div>
+
+    <!-- 2 Antam 500 gram -->
+    <div class="product">
+      <img src="logammuliaantam500gram.jpg" alt="Logam Mulia Antam 500 Gram">
+      <div class="info">
+        <h3>Logam Mulia Antam 500 Gram</h3>
+        <p><strong>Fine Gold:</strong> 999.9</p>
+        <p><strong>Sertifikat:</strong> LBMA</p>
+        <p><strong>Harga:</strong> Rp 850.000.000</p>
+        <a href="#" class="detail-btn" onclick="openPopup('emas2')">Detail Produk</a>
+      </div>
+    </div>
+
+    <!-- 3 Antam 250 gram -->
+    <div class="product">
+      <img src="logammuliaantam250gram.jpg" alt="Logam Mulia Antam 250 Gram">
+      <div class="info">
+        <h3>Logam Mulia Antam 250 Gram</h3>
+        <p><strong>Fine Gold:</strong> 999.9</p>
+        <p><strong>Sertifikat:</strong> LBMA</p>
+        <p><strong>Harga:</strong> Rp 425.000.000</p>
+        <a href="#" class="detail-btn" onclick="openPopup('emas3')">Detail Produk</a>
+      </div>
+    </div>
+
+    <!-- 4 Antam 100 gram -->
+    <div class="product">
+      <img src="logammuliaantam100gram.jpg" alt="Logam Mulia Antam 100 Gram">
+      <div class="info">
+        <h3>Logam Mulia Antam 100 Gram</h3>
+        <p><strong>Fine Gold:</strong> 999.9</p>
+        <p><strong>Sertifikat:</strong> CertiEye</p>
+        <p><strong>Harga:</strong> Rp 170.000.000</p>
+        <a href="#" class="detail-btn" onclick="openPopup('emas4')">Detail Produk</a>
+      </div>
+    </div>
+
+    <!-- 5 Antam 50 gram -->
+    <div class="product">
+      <img src="logammuliaantam50gram.jpg" alt="Logam Mulia Antam 50 Gram">
+      <div class="info">
+        <h3>Logam Mulia Antam 50 Gram</h3>
+        <p><strong>Fine Gold:</strong> 999.9</p>
+        <p><strong>Sertifikat:</strong> CertiEye</p>
+        <p><strong>Harga:</strong> Rp 85.000.000</p>
+        <a href="#" class="detail-btn" onclick="openPopup('emas5')">Detail Produk</a>
+      </div>
+    </div>
+
+    <!-- 6 Antam 25 gram -->
+    <div class="product">
+      <img src="logammuliaantam25gram.jpg" alt="Logam Mulia Antam 25 Gram">
+      <div class="info">
+        <h3>Logam Mulia Antam 25 Gram</h3>
+        <p><strong>Fine Gold:</strong> 999.9</p>
+        <p><strong>Sertifikat:</strong> CertiEye</p>
+        <p><strong>Harga:</strong> Rp 42.500.000</p>
+        <a href="#" class="detail-btn" onclick="openPopup('emas6')">Detail Produk</a>
+      </div>
+    </div>
+
+    <!-- 7 Antam 10 gram -->
+    <div class="product">
+      <img src="logammuliaantam10gram.jpg" alt="Logam Mulia Antam 10 Gram">
+      <div class="info">
+        <h3>Logam Mulia Antam 10 Gram</h3>
+        <p><strong>Fine Gold:</strong> 999.9</p>
+        <p><strong>Sertifikat:</strong> CertiEye</p>
+        <p><strong>Harga:</strong> Rp 17.000.000</p>
+        <a href="#" class="detail-btn" onclick="openPopup('emas7')">Detail Produk</a>
+      </div>
+    </div>
+
+  </main>
+
+<!-- Popups -->
+  <div id="emas1" class="popup" onclick="closePopup('emas1')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <span class="close-btn" onclick="closePopup('emas1')">×</span>
+      <h3>Logam Mulia Antam 1000 Gram</h3>
+      <p><strong>Fine Gold:</strong> 999.9</p>
+      <p><strong>Sertifikat:</strong> LBMA</p>
+      <p><strong>Harga:</strong> Rp 1.700.000.000</p>
+    </div>
+  </div>
+
+  <div id="emas2" class="popup" onclick="closePopup('emas2')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <span class="close-btn" onclick="closePopup('emas2')">×</span>
+      <h3>Logam Mulia Antam 500 Gram</h3>
+      <p><strong>Fine Gold:</strong> 999.9</p>
+      <p><strong>Sertifikat:</strong> LBMA</p>
+      <p><strong>Harga:</strong> Rp 850.000.000</p>
+    </div>
+  </div>
+
+  <div id="emas3" class="popup" onclick="closePopup('emas3')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <span class="close-btn" onclick="closePopup('emas3')">×</span>
+      <h3>Logam Mulia Antam 250 Gram</h3>
+      <p><strong>Fine Gold:</strong> 999.9</p>
+      <p><strong>Sertifikat:</strong> LBMA</p>
+      <p><strong>Harga:</strong> Rp 425.000.000</p>
+    </div>
+  </div>
+
+  <div id="emas4" class="popup" onclick="closePopup('emas4')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <span class="close-btn" onclick="closePopup('emas4')">×</span>
+      <h3>Logam Mulia Antam 100 Gram</h3>
+      <p><strong>Fine Gold:</strong> 999.9</p>
+      <p><strong>Sertifikat:</strong> CertiEye</p>
+      <p><strong>Harga:</strong> Rp 170.000.000</p>
+    </div>
+  </div>
+
+  <div id="emas5" class="popup" onclick="closePopup('emas5')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <span class="close-btn" onclick="closePopup('emas5')">×</span>
+      <h3>Logam Mulia Antam 50 Gram</h3>
+      <p><strong>Fine Gold:</strong> 999.9</p>
+      <p><strong>Sertifikat:</strong> CertiEye</p>
+      <p><strong>Harga:</strong> Rp 85.000.000</p>
+    </div>
+  </div>
+
+  <div id="emas6" class="popup" onclick="closePopup('emas6')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <span class="close-btn" onclick="closePopup('emas6')">×</span>
+      <h3>Logam Mulia Antam 25 Gram</h3>
+      <p><strong>Fine Gold:</strong> 999.9</p>
+      <p><strong>Sertifikat:</strong> CertiEye</p>
+      <p><strong>Harga:</strong> Rp 42.500.000</p>
+    </div>
+  </div>
+
+  <div id="emas7" class="popup" onclick="closePopup('emas7')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <span class="close-btn" onclick="closePopup('emas7')">×</span>
+      <h3>Logam Mulia Antam 10 Gram</h3>
+      <p><strong>Fine Gold:</strong> 999.9</p>
+      <p><strong>Sertifikat:</strong> CertiEye</p>
+      <p><strong>Harga:</strong> Rp 17.000.000</p>
+    </div>
+  </div>
+
+  <footer style="text-align:center;padding:1.5rem 0;margin-top:1.5rem;">
+    <a href="index.html" class="detail-btn">⬅️ Kembali</a>
+  </footer>
+</body>
+</html>
